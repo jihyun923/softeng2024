@@ -1,4 +1,4 @@
-from hw02.prime_number import is_prime
+from prime_number import is_prime
 
 
 def main():

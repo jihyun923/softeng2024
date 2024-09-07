@@ -1,4 +1,4 @@
-from hw02.odd_even import is_even
+from odd_even import is_even
 
 def main():
     # total = 0
