@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Homepage</title>
+        <link href="deco.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src = "temp.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./About_JH.html">About Me_kjh</a>
+            <a href="./isy.html">About Me_isy</a>
+        </nav>
+
+        <h1>과제 06 팀 홈페이지 만들기</h1>
+        <div>
+            <p>김지현(202321616)</p>
+            <p>임서영(202321632)</p>
+        </div>
+        <hr>
+        <div id = "temperature">
+            <h3>온도 변환</h3>
+                <p>온도를 입력해 주세요.</p>
+                <hr />
+
+                <label for="inputA">Ｆ</label>
+                <input id="inputA" value=0 onkeyup="f2c()">
+                <p><span id="valueA">0</span> Ｆ-> <span id="resultA"></span> ℃입니다.</p>
+                <hr />
+
+                <label for="inputB">℃</label>
+                <input id="inputB" value=0 onkeyup="c2f()">
+                <p><span id="valueB">0</span> ℃-> <span id="resultB"></span> Ｆ입니다.</p>
+        </div>
+
+    </body>
+</html>
