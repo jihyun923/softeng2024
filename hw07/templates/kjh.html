@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+        <div id = "contents">
+        <h1>김지현</h1>
+        <h2>  202321616 스마트팜학과</h2>
+        <button onclick="num_start()">행운의 숫자</button>
+        <p>  사진 찍는 것을 좋아합니다.</p>
+
+        <a href="https://github.com/jihyun923/softeng2024">Go to github</a>
+        <hr/>
+        </div>
+
+        <div class="image-gallery">
+        <img src="{{ url_for('static', filename='images/sky.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img2.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img3.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img4.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img5.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img6.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img7.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img8.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img9.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img10.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img11.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img12.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img13.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img14.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img15.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img16.jpg') }}">
+        <img src="{{ url_for('static', filename='images/img_14.png') }}">
+        <img src="{{ url_for('static', filename='images/img_15.png') }}">
+        <img src="{{ url_for('static', filename='images/img_16.png') }}">
+        <img src="{{ url_for('static', filename='images/img_17.png') }}">
+        <img src="{{ url_for('static', filename='images/img_18.png') }}">
+        <img src="{{ url_for('static', filename='images/img_19.png') }}">
+        <img src="{{ url_for('static', filename='images/img_20.png') }}">
+        <img src="{{ url_for('static', filename='images/img_21.png') }}">
+        <img src="{{ url_for('static', filename='images/img_22.png') }}">
+        <img src="{{ url_for('static', filename='images/img_23.png') }}">
+        <img src="{{ url_for('static', filename='images/img_25.png') }}">
+    </div>
+        <hr/>
+      <script src="{{ url_for('static', filename='what.js') }}"></script>
+{% endblock %}

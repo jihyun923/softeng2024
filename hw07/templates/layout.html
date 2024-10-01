@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "kr">
+    <head>
+        <meta charset = "utf-8">
+        <title>Flask blog</title>
+        <link href="{{ url_for('static', filename='deco.css')}}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/static">home</a>
+                <a href="/about_jh">about_kjh</a>
+                <a href="/about_sy">about_isy</a>
+            </nav>
+            <hr>
+        </header>
+
+        <main role="main">
+            {% block content %}
+
+            {% endblock %}
+        </main>
+    </body>
+</html>
