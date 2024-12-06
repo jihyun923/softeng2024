@@ -1,0 +1,20 @@
+{% extends 'blog/base_full_width.html' %}
+
+{% block head_title %}Create Post - Blog{% endblock %}
+
+{% block main_area %}
+    <hr>
+    <h1> Create New Post</h1>
+    <hr>
+    <form method="post" enctype="mutipart/form-data">{% csrf_token %}
+<!--        enctype="mutipart/form-data" 파일도 같이 전송한다는 것-->
+    <table>
+        {{ form }}
+        <tr>
+            <th><label for="id_ags_str">Tags:</label></th>
+            <td><input type="text" name="tags_str" id="id_tags_str"></td>
+        </tr>
+    </table>
+    <button type="summit" class="btn btn-primary float-right">Sumit</button>
+    </form>
+{% endblock %}
